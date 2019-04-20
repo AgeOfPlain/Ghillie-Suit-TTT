@@ -43,6 +43,7 @@ function SWEP:PrimaryAttack()
 		self:SetNextPrimaryFire(CurTime()+self.Primary.Delay)
 		ply:SetSkin( models/player/ghilliesuit_forest.mdl )
 		PD_Msg("You are now disguised.", ply)
+		Player:SetLaggedMovementValue(0.65)
 	else    
 		PD_Msg("You are already disguised.", ply)
 		return
