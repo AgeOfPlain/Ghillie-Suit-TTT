@@ -60,7 +60,7 @@ function SWEP:SecondaryAttack()
 		ply:SetLaggedMovementValue(1)
 		PD_Msg("Undisguising you now.", ply)
 		ply:SetSkin( "models/player/arctic.mdl" )
-		PD_Msg("You have been set to the default playermodel, please change back to your regular one.", ply)
+		PD_Msg("You have been set to the default playermodel, please change back to your regular one if you are using custom playermodels on your server.", ply)
 		Player:SetNoDraw(false)
 	end
 
