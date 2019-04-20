@@ -13,7 +13,7 @@ end
 -- Bugs: Pressing 'q' hides the timer for some reason...
 
 if CLIENT then
-	SWEP.PrintName = "Prop Disguiser"
+	SWEP.PrintName = "Ghillie Suit"
     SWEP.Slot = 7
     SWEP.DrawAmmo = false
     SWEP.DrawCrosshair = true
