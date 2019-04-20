@@ -6,11 +6,6 @@ if SERVER then
 end
 
 
----- TTT Prop Disguiser ----
--- Redone by Exho - based off Jonascone's SWEP 
--- V: 9/5/14	
-
--- Bugs: Pressing 'q' hides the timer for some reason...
 
 if CLIENT then
 	SWEP.PrintName = "Ghillie Suit"
@@ -52,8 +47,7 @@ SWEP.MinRadius			= 5 -- Min radius of a chosen prop
 SWEP.Prop				= nil
 SWEP.Disguised			= false
 
--- Put the Model Names of props that pass the criteria but you dont want anyone to use. Seperate each string WITH a comma
--- Example of a model path would be "models/props_junk/wood_crate001a.mdl" 
+
 SWEP.Blacklist = {
 
 }
