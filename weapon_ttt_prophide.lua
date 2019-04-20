@@ -67,7 +67,7 @@ function SWEP:SecondaryAttack()
 end
 
 function SWEP:Reload()
-	PD_Msg("Ya Bad - Merlinx	")
+	PD_Msg("Ya Bad - Merlin	")
 end
 
 
