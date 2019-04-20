@@ -41,6 +41,7 @@ function SWEP:PrimaryAttack()
 	if not self:GetNWBool("PD_WepDisguised") then
 		ply:SetNWBool("PD_Disguised", true)
 		self:SetNextPrimaryFire(CurTime()+self.Primary.Delay)
+		ply:SetSkin( skin )
 		PD_Msg("You are now disguised.", ply)
 	else    
 		PD_Msg("You are already disguised.", ply)
