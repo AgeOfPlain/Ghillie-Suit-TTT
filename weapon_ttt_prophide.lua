@@ -24,7 +24,7 @@ end
 SWEP.HoldType			= "normal"
 SWEP.Base				= "weapon_tttbase"
 SWEP.Kind 				= WEAPON_EQUIP2
-SWEP.CanBuy 			= { ROLE_TRAITOR }
+SWEP.CanBuy 			= { ROLE_TRAITOR, ROLE_ASSASSIN }
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.AutoSpawnable 		= false
