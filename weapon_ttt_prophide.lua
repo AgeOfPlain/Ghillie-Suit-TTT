@@ -17,7 +17,7 @@ if CLIENT then
  
    SWEP.EquipMenuData = {
       type = "item_weapon",
-      desc = "A Ghillie Suit, left click puts it on, makes it so that other players cannot see your nametag but it comes with a slight debuff of moving slightly slower, Right Click removes it"
+      desc = "A Ghillie Suit, left click puts it on, makes it so that other players cannot see your nametag but it comes with a slight debuff of moving slightly slower, Right Click removes it\n\nCreated by Business Cat & Merlin\n\n\nMeow?"
    };
 end
 
