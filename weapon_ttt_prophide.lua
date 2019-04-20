@@ -40,7 +40,7 @@ function SWEP:PrimaryAttack()
 	
 	if not self:GetNWBool("PD_WepDisguised") then
 		ply:SetNWBool("PD_Disguised", true)
-		self:SetNextPrimaryFire(CurTime()+self.Primary.Delay)
+		self:SetNextPrimaryFire(CurTime()+2)
 		ply:SetSkin( models/player/ghilliesuit_forest.mdl )
 		PD_Msg("You are now disguised.", ply)
 		Player:SetLaggedMovementValue(0.65)
@@ -51,7 +51,13 @@ function SWEP:PrimaryAttack()
 end
 
 function SWEP:SecondaryAttack()
-	
+	local ply = self.Owner
+	if not self:GetNWBool("PD_WepDisguised") then
+		PD_Msg("You are already undisguised ya dipshit.", ply)
+	else
+		-- Undisguise code here
+		Player:SetLaggedMovementValue(0.65)
+	end
 
 end
 
