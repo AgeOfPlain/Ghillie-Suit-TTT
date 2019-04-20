@@ -32,25 +32,7 @@ SWEP.ViewModel          = "models/weapons/c_pistol.mdl"
 SWEP.WorldModel         = "models/weapons/w_pistol.mdl"
 SWEP.ViewModelFlip		= false
 SWEP.UseHands 			= true
------- CONFIGURATION ------
-SWEP.Primary.Delay 		= 2 -- Time limit after undisguising until next disguise
-SWEP.Secondary.Delay	= 2 -- The exact opposite of that ^
 
-SWEP.DisguiseProp 		= Model("models/props_c17/oildrum001.mdl") -- Default disguise model
-SWEP.DisguiseTime 		= 25 -- How long, seconds, for the player to be disguised
-SWEP.DisguiseHealth 	= 50 -- Health for the disguised prop to have. Works with about half the models
-
-SWEP.MaxRadius			= 100 -- Max radius of a chosen prop. If its bigger than the player cannot use it
-SWEP.MinRadius			= 5 -- Min radius of a chosen prop
------- //END CONFIGURATION//------
-
-SWEP.Prop				= nil
-SWEP.Disguised			= false
-
-
-SWEP.Blacklist = {
-
-}
 
 local function PD_Msg(txt, ply)
 	if SERVER then
