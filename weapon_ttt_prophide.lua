@@ -13,7 +13,7 @@ if CLIENT then
     SWEP.DrawAmmo = false
     SWEP.DrawCrosshair = true
 	
-	SWEP.Icon = "vgui/ttt/exho_propdisguiser.png"
+	SWEP.Icon = "vgui/ttt/GhillieSuitTTTIcon.png"
  
    SWEP.EquipMenuData = {
       type = "item_weapon",
