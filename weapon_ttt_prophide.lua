@@ -14,7 +14,7 @@ end
 
 if CLIENT then
 	SWEP.PrintName = "Ghillie Suit"
-    SWEP.Slot = 7
+    SWEP.Slot = 2
     SWEP.DrawAmmo = false
     SWEP.DrawCrosshair = true
 	
