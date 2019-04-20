@@ -39,10 +39,8 @@ function SWEP:PrimaryAttack()
 	local ply = self.Owner
 	
 	if not self:GetNWBool("PD_WepDisguised") then
-		if IsValid(self.Prop) then self.Prop:Remove() end -- Just in case the prop already exists
 		ply:SetNWBool("PD_Disguised", true)
 		self:SetNextPrimaryFire(CurTime()+self.Primary.Delay)
-		self:PropDisguise() -- The main attraction, disguise
 	else
 		PD_Msg("You are already disguised.", ply)
 		return
